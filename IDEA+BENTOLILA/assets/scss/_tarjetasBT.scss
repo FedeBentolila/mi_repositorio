@@ -1,0 +1,25 @@
+.tarjetasBT{
+    margin-top: 50px;
+    width: auto;
+
+    div:hover{
+         transform: scale(1.2);
+         transition: 3s;
+        
+    }
+
+    .card{
+        margin-top: 20px;
+        height: auto;
+        background-color: $colorcinco;
+        color: $colorterciario;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15x;
+    }
+
+       
+    .card-body{
+     background-color:$colorsiete;
+    }
+
+}

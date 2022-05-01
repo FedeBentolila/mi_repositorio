@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bodyBT{
+    background-color: $colorprimario;
+
+    @import "_redesydireccionBT.scss";
+    @import "_logoynavBT.scss";
+    @import "_fondoindegaBT.scss";
+    @import "_estudiosypatologiasBT.scss";
+    @import "_tarjetasBT.scss";
+    @import "_ubicacionBT.scss";
+    @import "_mapaBT.scss";
+    @import "_pieBT.scss";
+    @import "_listasespecialidadesBT.scss";
+    @import "_tituloeimagenequipoBT.scss";
+    @import "_especialidadesaside.scss";
+    @import "_formulario.scss";
+
+    
+}

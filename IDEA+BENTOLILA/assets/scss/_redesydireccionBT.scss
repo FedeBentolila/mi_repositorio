@@ -1,0 +1,19 @@
+    .redesydireccionBT{
+        background-color: $colorsecundario;
+        padding: 10px;
+
+        .direccionBT{
+            color: $colorterciario;
+            padding: 10px;
+        }
+
+        a:hover {
+            background-color: rgba(228, 241, 241, 0.735);
+            border-radius: 20px;
+        }
+        
+        a{text-decoration: none;
+            color: white;   
+        }
+
+    }

@@ -1,0 +1,43 @@
+.logoynavBT{
+    margin: 8px;
+
+    a:hover {
+        background-color: rgba(228, 241, 241, 0.735);
+        border-radius: 20px;
+    }
+    
+    a{text-decoration: none;
+        color: $colorterciario;   
+    }
+
+    .indegalogoBT{
+        animation-name: efecto_indegalogo;
+        animation-iteration-count: calc(3);
+        animation-timing-function: linear;
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+
+    @keyframes efecto_indegalogo{
+        0%{opacity:1;}
+        25%{opacity:0;}
+        50%{opacity:1;}
+        75%{opacity:0;}
+        100%{opacity:1;}
+        }
+
+
+    .indegalogoBT:hover{
+        transform: rotateY(360deg);
+        transition: 5s;
+    }
+    
+    .textoh2BT{
+        color: $colorcuaterniario;
+        margin: 20px;
+    }
+    
+    .navbar{
+        border-radius: 10px;
+    }
+}

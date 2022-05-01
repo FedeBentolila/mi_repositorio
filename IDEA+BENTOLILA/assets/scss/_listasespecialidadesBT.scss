@@ -1,0 +1,25 @@
+.listasespecialidadesBT{
+    background-color: $colorprimario;
+    margin-top: 50px;
+
+
+    ul{
+        list-style: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: $colorprimario;
+        height: 380px;
+        width:auto;
+        font-size: large;
+        text-align: center;
+        background-color: $colorcinco;
+        padding: 20px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+
+    li{
+        margin-top: 10px;
+    }
+    
+    
+}

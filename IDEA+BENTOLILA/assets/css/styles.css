@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bodyBT {
+  background-color: whitesmoke;
+}
+
+.bodyBT .redesydireccionBT {
+  background-color: #474a49;
+  padding: 10px;
+}
+
+.bodyBT .redesydireccionBT .direccionBT {
+  color: white;
+  padding: 10px;
+}
+
+.bodyBT .redesydireccionBT a:hover {
+  background-color: rgba(228, 241, 241, 0.735);
+  border-radius: 20px;
+}
+
+.bodyBT .redesydireccionBT a {
+  text-decoration: none;
+  color: white;
+}
+
+.bodyBT .logoynavBT {
+  margin: 8px;
+}
+
+.bodyBT .logoynavBT a:hover {
+  background-color: rgba(228, 241, 241, 0.735);
+  border-radius: 20px;
+}
+
+.bodyBT .logoynavBT a {
+  text-decoration: none;
+  color: white;
+}
+
+.bodyBT .logoynavBT .indegalogoBT {
+  -webkit-animation-name: efecto_indegalogo;
+          animation-name: efecto_indegalogo;
+  -webkit-animation-iteration-count: calc(3);
+          animation-iteration-count: calc(3);
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes efecto_indegalogo {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes efecto_indegalogo {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bodyBT .logoynavBT .indegalogoBT:hover {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.bodyBT .logoynavBT .textoh2BT {
+  color: #3f3f3f;
+  margin: 20px;
+}
+
+.bodyBT .logoynavBT .navbar {
+  border-radius: 10px;
+}
+
+.bodyBT .fondoindegaBT {
+  background-image: url(../img/INDEGAIMAGENGRANDE.jpg);
+  background-size: cover;
+  height: 450px;
+  width: auto;
+  margin-top: 20px;
+}
+
+.bodyBT .fondoindegaBT .parrafo1BT {
+  color: #5d5d5d;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.bodyBT .estudiosypatologiasBT {
+  background-color: gray;
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+}
+
+.bodyBT .tarjetasBT {
+  margin-top: 50px;
+  width: auto;
+}
+
+.bodyBT .tarjetasBT div:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.bodyBT .tarjetasBT .card {
+  margin-top: 20px;
+  height: auto;
+  background-color: gray;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15x;
+}
+
+.bodyBT .tarjetasBT .card-body {
+  background-color: #63cdcd;
+}
+
+.bodyBT .ubicacionBT {
+  background-color: #63cdcd;
+  color: whitesmoke;
+  font-size: medium;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+}
+
+.bodyBT .mapaBT {
+  background-color: whitesmoke;
+  width: auto;
+  margin-top: 20px;
+}
+
+.bodyBT .pieBT {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#474a49), to(#1f2020));
+  background-image: linear-gradient(to bottom, #474a49, #1f2020);
+  color: whitesmoke;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bodyBT .pieBT .tarjetafooterBT {
+  margin-top: 30px;
+}
+
+.bodyBT .listasespecialidadesBT {
+  background-color: whitesmoke;
+  margin-top: 50px;
+}
+
+.bodyBT .listasespecialidadesBT ul {
+  list-style: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: whitesmoke;
+  height: 380px;
+  width: auto;
+  font-size: large;
+  text-align: center;
+  background-color: gray;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.bodyBT .listasespecialidadesBT li {
+  margin-top: 10px;
+}
+
+.bodyBT .tituloeimagenequipoBT {
+  background-color: #63cdcd;
+  color: white;
+  width: auto;
+  height: 400px;
+}
+
+.bodyBT .especialidadesaside {
+  background-color: whitesmoke;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.bodyBT .especialidadesaside h3 {
+  background-color: #63cdcd;
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.bodyBT .especialidadesaside ul {
+  list-style: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bodyBT .especialidadesaside li {
+  margin-top: 10px;
+}
+
+.bodyBT .formulario {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.bodyBT .formulario ul {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  text-align: center;
+  list-style: none;
+  background-color: gray;
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 10%;
+}
+
+.bodyBT .formulario ul li {
+  margin-top: 10px;
+}
+
+.bodyBT .formulario img {
+  padding: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
